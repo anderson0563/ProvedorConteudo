@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/idTelefone"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="619dp"
+        android:height="33dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintTelefone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="537dp"
+        android:height="43dp"
+        android:text="@string/rotuloBotao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTelefone"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="pegarNome"/>
+
+    <EditText
+        android:id="@+id/idNome"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="442dp"
+        android:height="33dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintNome"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

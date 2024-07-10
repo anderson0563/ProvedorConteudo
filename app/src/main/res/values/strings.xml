@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExemploProvedorConteudo</string>
+    <string name="hintTelefone">Número do telefone</string>
+    <string name="hintNome">Campo automático</string>
+    <string name="rotuloBotao">Buscar Nome</string>
+    <string name="button">Button</string>
+</resources>
